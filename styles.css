@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  position: absolute;
+  margin-top: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.canvas {
+  height: 300px;
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 10px;
+  color: pink;
+}
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+  padding: 50px 50px;
+  background-color: #f2f2f2;
+}
+.block,
+input,
+select,
+button {
+  width: 80%;
+}
+.top > .block {
+  margin: 10px;
+}
+.bottom > button {
+  margin: 10px;
+}
+.block > p {
+  margin: 10px;
+  width: 50%;
+  font-size: 20px;
+  font-family: bold;
+}
+label {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+input {
+  height: 50px;
+  width: 100px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.mid {
+  text-align: center;
+  padding: 50px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+#clearButton {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#clearButton:hover {
+  background-color: rgb(203, 4, 4);
+  /* color-weight: bold; */
+  cursor: pointer;
+}
+
+#saveButton {
+  background-color: green;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+#saveButton:hover {
+  background-color: rgb(2, 170, 2);
+  cursor: pointer;
+}
+#retrieveButton {
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#retrieveButton:hover {
+  background-color: rgb(206, 206, 3);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c6c5c5;
+}
